@@ -21,7 +21,7 @@ namespace StudentApplication.Controllers
             {
                 new StudentModel { id = 1, name = "Shaban" ,city = "Surat"},
                 new StudentModel { id = 2, name = "jeet" , city = "Daman" },
-                new StudentModel { id = 3, name = "vishal" , city = "jamnagar" },
+                new StudentModel { id = 3, name = "vishal" , city = "Rajkot" },
                 new StudentModel { id = 4, name = "milAN" , city = "Ahemedabad" },
                 new StudentModel { id = 5, name = "kushal" , city = "Morbi" }
             };
@@ -30,7 +30,7 @@ namespace StudentApplication.Controllers
         }
         public ActionResult About()
         {
-            string[] name = { "Dhaval", "Keval", "Jimit", "Jaydeep", "Divyaraj" };
+            string[] name = { "Shaban", "Vishal", "Milan", "Kushal", "Jeet" };
             ViewBag.name = name;
             return View();
         }
